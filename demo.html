@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="import" href="../polymer/polymer.html">
+    <link rel="import" href="save-to-gist.html">
+    <style>
+      save-to-gist {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+
+    <save-to-gist
+      client-id="c7bb888364a2074c3030"
+      token-validator="http://testsave-oodma.rhcloud.com/token.php"
+      is-private="false"
+      description="Just Some Test"
+      error-message="Please See the files that you are trying to upload"
+      files='{"temp1":{ "content" : "lalala"}}'>
+    </save-to-gist>
+    
+  </body>
+</html>
